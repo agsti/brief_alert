@@ -1,0 +1,21 @@
+{
+	"name": "@elegantstack/gatsby-starter-flexiblocks",
+	"private": true,
+	"version": "3.9.0",
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"serve": "gatsby serve"
+	},
+	"dependencies": {
+		"@elegantstack/gatsby-theme-flexiblocks": "*",
+		"gatsby": "^4.14.1",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	}
+}
