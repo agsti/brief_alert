@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Versatile Platform",
+      "text": "Setup email interval",
       "color": "omega",
       "variant": "h4"
     },
     {
-      "text": "**Versatile System** for All Software Startups",
+      "text": "**Schedule email** frequency",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "Choose between daily, weekly or custom interval emails",
       "variant": "medium"
     }
   ],
@@ -31,42 +31,6 @@
         "top": "-35%",
         "left": "25%"
       }
-    }
-  ],
-  "collection": [
-    {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
-        "color": "white",
-        "bg": "beta"
-      },
-      "text": [
-        {
-          "text": "Automatic interest detection",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur."
-        }
-      ]
-    },
-    {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
-        "color": "white",
-        "bg": "alpha"
-      },
-      "text": [
-        {
-          "text": "Daily email reports",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur."
-        }
-      ]
     }
   ]
 }

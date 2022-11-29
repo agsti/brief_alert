@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Ready to start tracking your expenses?",
+      "text": "Ready to start sending summary emails?",
       "color": "omegaDark",
       "variant": "h4"
     },
@@ -14,7 +14,7 @@
       "variant": "medium"
     },
     {
-      "textGroup": ["Monthly", "Annually (Save 10%)"]
+      "textGroup": ["Monthly", "Annually (Save 20%)"]
     }
   ],
   "collection": [
@@ -24,23 +24,23 @@
       },
       "text": [
         {
-          "text": "Starter",
+          "text": "POC",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "textGroup": ["$29", "$25"],
+          "textGroup": ["Free", "Free"],
           "color": "omegaDarker",
           "variant": "h2"
         },
         {
-          "text": "/month"
+          "text": ""
         },
         {
-          "textGroup": ["", "Save 10%"]
+          "textGroup": ["", ""]
         },
         {
-          "text": "For up to 10 customers and 1 agent"
+          "text": "For small projects and POCs"
         }
       ],
       "icon": {
@@ -50,7 +50,7 @@
       },
       "buttons": [
         {
-          "text": "Choose Starter",
+          "text": "Choose FREE",
           "type": "MODAL",
           "link": "authentication",
           "variant": "primary",
@@ -61,7 +61,7 @@
         {
           "text": [
             {
-              "text": "10 Customers",
+              "text": "1 Custom template",
               "variant": "h6"
             }
           ],
@@ -73,7 +73,7 @@
         {
           "text": [
             {
-              "text": "1 Agent",
+              "text": "Up to 100 events/month",
               "variant": "h6"
             }
           ],
@@ -85,7 +85,7 @@
         {
           "text": [
             {
-              "text": "Deal pipeline",
+              "text": "Up to 10 users",
               "variant": "h6"
             }
           ],
@@ -97,7 +97,20 @@
         {
           "text": [
             {
-              "text": "Meeting scheduling",
+              "text": "GDPR compliant",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+            "color": "omega"
+          }
+        }
+,
+        {
+          "text": [
+            {
+              "text": "Daily schedule",
               "variant": "h6"
             }
           ],
@@ -115,12 +128,12 @@
       },
       "text": [
         {
-          "text": "Professional",
+          "text": "Startup",
           "color": "omegaLight",
           "variant": "h5"
         },
         {
-          "textGroup": ["$49", "$45"],
+          "textGroup": ["$100", "$80"],
           "color": "white",
           "variant": "h2"
         },
@@ -129,10 +142,10 @@
           "color": "omega"
         },
         {
-          "textGroup": ["", "Save 10%"]
+          "textGroup": ["", "Save 20%"]
         },
         {
-          "text": "For up to 100 customers and 10 agent",
+          "text": "For growing startups",
           "color": "omega"
         }
       ],
@@ -143,7 +156,7 @@
       },
       "buttons": [
         {
-          "text": "Choose Professional",
+          "text": "Choose Startup",
           "type": "MODAL",
           "link": "authentication",
           "variant": "secondary",
@@ -154,7 +167,7 @@
         {
           "text": [
             {
-              "text": "100 Customers",
+              "text": "10 custom templates",
               "color": "omegaLight",
               "variant": "h6"
             }
@@ -167,7 +180,7 @@
         {
           "text": [
             {
-              "text": "10 Agents",
+              "text": "Up to 6k events/month",
               "color": "omegaLight",
               "variant": "h6"
             }
@@ -180,7 +193,7 @@
         {
           "text": [
             {
-              "text": "Sales analytics",
+              "text": "Up to 1000 users",
               "color": "omegaLight",
               "variant": "h6"
             }
@@ -193,7 +206,7 @@
         {
           "text": [
             {
-              "text": "Smart send times",
+              "text": "GDPR Compliant",
               "color": "omegaLight",
               "variant": "h6"
             }
@@ -206,7 +219,7 @@
         {
           "text": [
             {
-              "text": "1:1 video creation",
+              "text": "Daily, weekly or monthly schedule at any time",
               "color": "omegaLight",
               "variant": "h6"
             }
@@ -219,7 +232,7 @@
         {
           "text": [
             {
-              "text": "Single sign-on",
+              "text": "Timezone offsets",
               "color": "omegaLight",
               "variant": "h6"
             }
@@ -237,12 +250,12 @@
       },
       "text": [
         {
-          "text": "Organization",
+          "text": "Scale up",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "textGroup": ["$99", "$95"],
+          "textGroup": ["$1k", "$800"],
           "color": "omegaDarker",
           "variant": "h2"
         },
@@ -250,10 +263,10 @@
           "text": "/month"
         },
         {
-          "textGroup": ["", "Save 10%"]
+          "textGroup": ["", "Save 20%"]
         },
         {
-          "text": "Unlimited customers and agents"
+          "text": "For big volume companies"
         }
       ],
       "icon": {
@@ -263,7 +276,7 @@
       },
       "buttons": [
         {
-          "text": "Choose Organization",
+          "text": "Choose Scale Up",
           "type": "MODAL",
           "link": "authentication",
           "variant": "primary",
@@ -274,7 +287,7 @@
         {
           "text": [
             {
-              "text": "Unlimited Customers",
+              "text": "infinite custom templates",
               "variant": "h6"
             }
           ],
@@ -286,7 +299,7 @@
         {
           "text": [
             {
-              "text": "Unlimited Agents",
+              "text": "Up to 100k events/month",
               "variant": "h6"
             }
           ],
@@ -298,7 +311,7 @@
         {
           "text": [
             {
-              "text": "Predictive lead scoring",
+              "text": "Up to 100000 users",
               "variant": "h6"
             }
           ],
@@ -310,7 +323,31 @@
         {
           "text": [
             {
-              "text": "User roles",
+              "text": "GDPR Compliant",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+            "color": "omega"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Daily, weekly or monthly schedule at any time",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+            "color": "omega"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Timezone offsets",
               "variant": "h6"
             }
           ],

@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Acceleration Process to Grow Your Business",
+      "text": "Deliver summary emails with minimal hassle",
       "variant": "h2"
     },
     {
-      "text": "We help our clients achieve tangible, high-impact results. Lorem ipsum dolor sit amet.",
+      "text": "With very few lines of code and separate design and developer workflows, sending summary emails has never been easier.",
       "variant": "medium"
     }
   ],
@@ -13,44 +13,33 @@
     {
       "text": [
         {
-          "text": "Market Research",
+          "text": "Sending data",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sime."
+          "text": "Send events containing the updates you want to email to your users."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Strategy & Direction",
+          "text": "Setup the email template",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sime."
+          "text": "Filter the events to send to the user and design a beautiful customized template using our template editor"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Brand Marketing",
+          "text": "Select email schedule",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sime."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Smart Scaling",
-          "variant": "h5"
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sime."
+          "text": "Select the email frequency to update your users"
         }
       ]
     }

@@ -13,8 +13,8 @@ module.exports = {
   ],
   // Customize your site metadata
   siteMetadata: {
-    title: 'FlexiBlocks Theme',
-    name: 'FlexiBlocks',
-    description: 'My site description...'
+    title: 'BriefAlert - Summary emails',
+    name: 'BriefAlert',
+    description: 'Beautiful summary emails at scale'
   }
 }

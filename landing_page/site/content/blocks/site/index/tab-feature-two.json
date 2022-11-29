@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "GROW YOUR BUSINESS",
+      "text": "Email templates",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Best Marketing Service for **Technological Era**",
+      "text": "Easy to make **beautiful email templates**",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "Using our template editor, create the most beautiful and engaging email templates.",
       "variant": "medium"
     }
   ],
@@ -62,11 +62,11 @@
           "space": 1
         },
         {
-          "text": "Advanced Panel",
+          "text": "Ready to use templates",
           "variant": "h6"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua."
+          "text": "White label templates easy to use and integrate"
         }
       ]
     },

@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Innovative Solutions",
+      "text": "Sending data",
       "color": "omega",
       "variant": "h4"
     },
     {
-      "text": "**Innovative Features** Integrated for Teams",
+      "text": "**Data ingestion**",
       "variant": "h2"
     },
     {
-      "text": "Lorem ipsum dolor sit amet, consectetur magna aliqua. Eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem voluptas.",
+      "text": "Use our easy to use client SDK to send all the information you want to use in the emails.",
       "variant": "medium"
     }
   ],
@@ -46,7 +46,7 @@
     {
       "text": [
         {
-          "text": "Analytics"
+          "text": "Client SDK"
         }
       ],
       "icon": {
@@ -57,7 +57,7 @@
     {
       "text": [
         {
-          "text": "Consultation"
+          "text": "Easy to use"
         }
       ],
       "icon": {
@@ -68,7 +68,7 @@
     {
       "text": [
         {
-          "text": "Reports"
+          "text": "Fast responses"
         }
       ],
       "icon": {
@@ -79,7 +79,7 @@
     {
       "text": [
         {
-          "text": "Live Support"
+          "text": "GDPR compliant"
         }
       ],
       "icon": {

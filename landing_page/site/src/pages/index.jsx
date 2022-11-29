@@ -13,7 +13,6 @@ import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import FeatureThree from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Features from '@solid-ui-blocks/Features/Block02'
-import Screenshot from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Process from '@solid-ui-blocks/Features/Block03'
 import Testimonials from '@solid-ui-blocks/Testimonials/Block03'
 import Companies from '@solid-ui-blocks/Companies/Block01'
@@ -33,7 +32,7 @@ const IndexPage = props => {
   return (
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
-      {/* Modals */}
+      {/* Modals */}Modals
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
@@ -46,6 +45,11 @@ const IndexPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Divider space='5' />
+      <Divider space='5' />
+      <Process content={content['process']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={5}>
           <FeatureOne content={content['tab-feature-one']} />
@@ -54,47 +58,33 @@ const IndexPage = props => {
         </Tabs>
       </Container>
       <Divider space='5' />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Container variant='wide' sx={styles.tabsContainer}>
-        <Tabs space={3} variant='dots' position='bottom' arrows>
-          <Screenshot content={content['screenshot-one']} />
-          <Screenshot content={content['screenshot-two']} />
-          <Screenshot content={content['screenshot-three']} />
-        </Tabs>
-      </Container>
-      <Divider space='5' />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Process content={content['process']} />
-      <Divider space='5' />
-      <Container variant='full' sx={styles.featuresContainer}>
-        <Features content={content['features']} />
-      </Container>
-      <Divider space='5' />
-      <Container variant='full' sx={styles.socialProofContainer}>
-        <Divider space='5' />
-        <Divider space='5' />
-        <Container variant='narrow'>
-          <Stats content={content['stats']} />
-          <Divider space='5' />
-        </Container>
-        <Testimonials content={content['testimonials']} />
-        <Divider space='5' />
-      </Container>
+      {/* <Container variant='full' sx={styles.featuresContainer}> */}
+      {/*   <Features content={content['features']} /> */}
+      {/* </Container> */}
+      {/* <Divider space='5' /> */}
+      {/* <Container variant='full' sx={styles.socialProofContainer}> */}
+      {/*   <Divider space='5' /> */}
+      {/*   <Divider space='5' /> */}
+      {/*   <Container variant='narrow'> */}
+      {/*     <Stats content={content['stats']} /> */}
+      {/*     <Divider space='5' /> */}
+      {/*   </Container> */}
+      {/*   <Testimonials content={content['testimonials']} /> */}
+      {/*   <Divider space='5' /> */}
+      {/* </Container> */}
       <Divider space='5' />
       <Divider space='5' />
       <Pricing content={content['pricing']} />
       <Divider space='5' />
-      <Companies content={content['companies']} />
-      <Divider space='5' />
-      <Container variant='narrow'>
-        <Faq content={content['faq']} />
-      </Container>
-      <Divider space='5' />
-      <Divider space='5' />
-      <Blog content={content['latest-blogs']} />
-      <Divider space='5' />
+      {/* <Companies content={content['companies']} /> */}
+      {/* <Divider space='5' /> */}
+      {/* <Container variant='narrow'> */}
+      {/*   <Faq content={content['faq']} /> */}
+      {/* </Container> */}
+      {/* <Divider space='5' /> */}
+      {/* <Divider space='5' /> */}
+      {/* <Blog content={content['latest-blogs']} /> */}
+      {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
   )
