@@ -9,6 +9,14 @@ module.exports = {
         createDemoPages: true,
         colorMode: true
       }
+    },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '2',
+        matomoUrl: 'https://matomo.agustibau.com',
+        siteUrl: 'briefalert.io'
+      }
     }
   ],
   // Customize your site metadata
