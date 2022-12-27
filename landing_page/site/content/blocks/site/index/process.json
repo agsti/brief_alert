@@ -13,11 +13,11 @@
     {
       "text": [
         {
-          "text": "Sending data",
+          "text": "Sending updates",
           "variant": "h5"
         },
         {
-          "text": "Send events containing the updates you want to email to your users."
+          "text": "Send updates containing the information you want to email to your users."
         }
       ]
     },
@@ -28,7 +28,7 @@
           "variant": "h5"
         },
         {
-          "text": "Filter the events to send to the user and design a beautiful customized template using our template editor"
+          "text": "Filter the updates to send to the user and design a beautiful customized template using our template editor"
         }
       ]
     },

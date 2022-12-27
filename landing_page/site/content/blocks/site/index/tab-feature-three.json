@@ -16,21 +16,12 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/tab-feature-three.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default"
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/tab-feature-three-overlay-one.png",
+      "src": "../../../assets/flexiblocks/icons/bx-timer.svg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",
-      "effects": ["fadeInDown", "float"],
-      "position": {
-        "top": "-35%",
-        "left": "25%"
-      }
+      "width": "100%",
+      "color": "beta"
     }
   ]
 }

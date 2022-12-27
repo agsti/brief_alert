@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Sending data",
+      "text": "Sending updates",
       "color": "omega",
       "variant": "h4"
     },
@@ -16,30 +16,11 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/tab-feature-one.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default"
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/tab-feature-one-overlay-two.png",
-      "alt": "alt text",
-      "effects": ["fadeInDown", "float"],
-      "position": {
-        "bottom": "-15%",
-        "left": "10%"
-      }
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/tab-feature-one-overlay-one.png",
+      "src": "../../../assets/flexiblocks/icons/bx-meteor.svg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",
-      "effects": ["fadeInUp", "floatFaster"],
-      "position": {
-        "top": "-20%",
-        "right": "17.5%"
-      }
+      "width": "100%"
     }
   ],
   "collection": [
@@ -50,7 +31,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-code-block.svg",
         "color": "beta"
       }
     },
@@ -61,18 +42,18 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-calendar-check.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-like.svg",
         "color": "beta"
       }
     },
     {
       "text": [
         {
-          "text": "Fast responses"
+          "text": "2ms responses"
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-rocket.svg",
         "color": "beta"
       }
     },
@@ -83,7 +64,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
         "color": "beta"
       }
     }

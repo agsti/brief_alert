@@ -11,18 +11,17 @@
       "variant": "h1"
     },
     {
-      "text": "Deliver beautiful summary emails at a fixed schedule",
+      "text": "Send less automated emails while keeping your users informed of the updates on your site. Reduce churn by sending more concise emails.",
       "color": "omegaDarker",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/hero-small.png",
+      "src": "../../../assets/brief_alert/hero_this.png",
       "alt": "alt text",
       "radius": "lg",
-      "shadow": "default",
-      "border": "lg",
+      "shadow": "none",
       "effects": ["fadeInDown"]
     }
   ],

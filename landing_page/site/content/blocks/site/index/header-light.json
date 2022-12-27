@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/shared/logo.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Home",
+          "type": "ANCHOR",
+          "link": "/",
+          "variant": "links.nav-white"
+        },
+
+        {
+          "text": "How it works",
+          "type": "ANCHOR",
+          "link": "/",
+          "variant": "links.nav-white"
+        },
+        {
+          "text": "Documentation",
+          "type": "ANCHOR",
+          "link": "/",
+          "variant": "links.nav-white"
+        },
+
+        {
+          "text": "Pricing",
+          "type": "ANCHOR",
+          "link": "/",
+          "variant": "links.nav-white"
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Contact Us",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}

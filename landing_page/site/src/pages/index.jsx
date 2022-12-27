@@ -32,7 +32,7 @@ const IndexPage = props => {
   return (
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
-      {/* Modals */}Modals
+      {/* Modals */}
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
