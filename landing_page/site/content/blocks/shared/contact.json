@@ -27,6 +27,7 @@
         }
       ],
       "form": {
+          "action": "/",
         "fields": [
           {
             "identifier": "name",
