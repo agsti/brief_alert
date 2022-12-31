@@ -30,6 +30,11 @@
           "action": "/",
         "fields": [
           {
+            "identifier": "form-name",
+            "type": "HIDDEN",
+            "value": "Contact"
+          },
+          {
             "identifier": "email",
             "type": "EMAIL",
             "placeholder": {
