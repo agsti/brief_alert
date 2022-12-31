@@ -25,7 +25,6 @@ const ModalBlock02 = ({
         sx={{
           alignItems: `stretch`,
           overflowY: `scroll`,
-          height: `80vh`,
           maxHeight: `750px`,
           flexDirection: [
             reverse ? `column-reverse` : `column`,

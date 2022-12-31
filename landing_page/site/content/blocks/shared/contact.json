@@ -1,22 +1,17 @@
 {
-  "collection": [
-    {
       "text": [
         {
-          "text": ""
-        },
-        {
-          "text": "Contact us",
+          "text": "We will get back to you",
           "color": "omegaDarker",
           "variant": "h2",
           "space": 3
         },
         {
-          "text": "We'll get back you within 24 hours.",
+          "text": "In order to ensure we give the best service to our users, we are adding users to our platform in a tailored manner.",
           "color": "omegaDark"
         },
         {
-          "text": "We promise we won't do anything nasty with your email",
+          "text": "",
           "color": "omega"
         }
       ],
@@ -56,5 +51,3 @@
         ]
       }
     }
-  ]
-}

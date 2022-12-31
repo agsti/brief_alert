@@ -33,7 +33,7 @@ const IndexPage = props => {
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      <ModalWithTabs content={content['contact']} />
+      <ModalSimple content={content['contact']} />
       {/* Blocks */}
       <Header content={content['header-light']} menuJustify='space-between' />
       <Divider space='5' />
