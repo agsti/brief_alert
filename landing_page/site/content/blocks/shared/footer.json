@@ -20,12 +20,6 @@
           "variant": "links.nav-light"
         },
         {
-          "text": "Blog",
-          "type": "MODAL",
-          "link": "advertisement",
-          "variant": "links.nav-light"
-        },
-        {
           "text": "Contact Us",
           "type": "MODAL",
           "link": "contact",
@@ -42,60 +36,21 @@
       "buttons": [
         {
           "text": "Privacy Notice",
-          "type": "PAGE",
-          "link": "",
+          "type": "ANCHOR",
+          "link": "https://www.briefalert.io/privacy_policy.html",
           "variant": "links.nav-light"
         },
         {
           "text": "Cookie Policy",
           "type": "PAGE",
-          "link": "",
+          "link": "https://www.briefalert.io/cookie_policy.html",
           "variant": "links.nav-light"
         },
         {
           "text": "Terms Of Use",
           "type": "PAGE",
-          "link": "",
+          "link": "https://www.briefalert.io/terms_of_use.html",
           "variant": "links.nav-light"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Social Media"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Github",
-          "type": "PAGE",
-          "link": "https://github.com/gatsby",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
-            "color": "#2f4f4f"
-          }
-        },
-        {
-          "text": "Twitter",
-          "type": "PAGE",
-          "link": "https://twitter.com/gatsby",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
-            "color": "#1da1f2"
-          }
-        },
-        {
-          "text": "Instagram",
-          "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
-            "color": "#c13584"
-          }
         }
       ]
     }
