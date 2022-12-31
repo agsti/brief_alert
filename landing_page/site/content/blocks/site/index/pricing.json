@@ -52,7 +52,7 @@
         {
           "text": "Choose FREE",
           "type": "MODAL",
-          "link": "authentication",
+          "link": "contact",
           "variant": "primary",
           "width": "100%"
         }
@@ -155,7 +155,7 @@
         {
           "text": "Choose Scale Up",
           "type": "MODAL",
-          "link": "authentication",
+          "link": "contact",
           "variant": "primary",
           "width": "100%"
         }
