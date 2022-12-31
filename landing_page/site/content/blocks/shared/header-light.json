@@ -11,25 +11,19 @@
         {
           "text": "Home",
           "type": "ANCHOR",
-          "link": "/",
+          "link": "#hero",
           "variant": "links.nav-white"
         },
         {
-          "text": "Features",
+          "text": "How it works",
           "type": "ANCHOR",
-          "link": "/",
+          "link": "#process",
           "variant": "links.nav-white"
-        },
-        {
-          "text": "Documentation",
-          "variant": "links.nav-white",
-          "link": "/",
-          "type": "ANCHOR"
         },
         {
           "text": "Pricing",
           "variant": "links.nav-white",
-          "link": "/",
+          "link": "#pricing",
           "type": "ANCHOR"
         }
       ]
