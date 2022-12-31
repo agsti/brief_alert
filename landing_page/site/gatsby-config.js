@@ -19,20 +19,15 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-favicons',
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        logo: './content/assets/brief_alert/favicon.png',
-        appName: 'My Website',
-        background: '#fff',
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          yandex: false,
-          windows: false
-        }
+        name: 'BriefAlert.io',
+        short_name: 'BriefAlert.io',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#448bdb',
+        display: 'minimal-ui',
+        icon: 'content/assets/brief_alert/favicon.png'
       }
     }
   ],
