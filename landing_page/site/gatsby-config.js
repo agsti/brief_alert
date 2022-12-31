@@ -17,6 +17,23 @@ module.exports = {
         matomoUrl: 'https://matomo.agustibau.com',
         siteUrl: 'briefalert.io'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-favicons',
+      options: {
+        logo: './content/assets/brief_alert/favicon.png',
+        appName: 'My Website',
+        background: '#fff',
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          yandex: false,
+          windows: false
+        }
+      }
     }
   ],
   // Customize your site metadata
