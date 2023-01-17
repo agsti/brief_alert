@@ -3,11 +3,11 @@
         {
           "text": "We will get back to you",
           "color": "omegaDarker",
-          "variant": "h2",
+          "variant": "h3",
           "space": 3
         },
         {
-          "text": "In order to ensure we give the best service to our users, we are onboarding users in a manual way.",
+          "text": "We are still building, we are aiming to start onboarding users at the end of Q1 2023",
           "color": "omegaDark"
         },
         {
@@ -30,6 +30,17 @@
             "value": "Contact"
           },
           {
+            "identifier": "num_users",
+            "type": "TEXT",
+            "placeholder": {
+              "text": "Approximate number of users"
+            },
+            "icon": {
+              "src": "../../assets/flexiblocks/icons/bx-rocket.svg",
+              "color": "alpha"
+            }
+          },
+          {
             "identifier": "email",
             "type": "EMAIL",
             "placeholder": {
@@ -46,6 +57,10 @@
             "text": "Submit",
             "type": "SUBMIT",
             "variant": "secondary",
+            "tracking": {
+                "category": "cat",
+                "action": "act"
+            },
             "width": "200px"
           }
         ]

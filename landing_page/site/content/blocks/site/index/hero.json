@@ -6,12 +6,12 @@
       "variant": "h4"
     },
     {
-      "text": "Summary emails the easy way",
+      "text": "Reduce churn by sending less, better emails",
       "color": "white",
-      "variant": "h1"
+      "variant": "h2"
     },
     {
-      "text": "Send less automated emails while keeping your users informed of the updates on your site. Reduce churn by sending more concise emails.",
+      "text": "Sending and designing personalized newsletter emails reduces spam induced churn by delivering more information dense emails",
       "color": "omegaDarker",
       "variant": "medium"
     }
@@ -27,7 +27,7 @@
   ],
   "buttons": [
     {
-      "text": "Get Started Now",
+      "text": "Join the waitlist for first access",
       "type": "MODAL",
       "link": "contact",
       "variant": "white"

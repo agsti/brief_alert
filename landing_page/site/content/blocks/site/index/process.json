@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Deliver summary emails with minimal hassle",
+      "text": "Deliver personalized newsletters with minimal hassle",
       "variant": "h2"
     },
     {
-      "text": "With very few lines of code and separate design and developer workflows, sending summary emails has never been easier.",
+      "text": "With very few lines of code and separate design and developer workflows, sending and designing personalized newsletters has never been easier.",
       "variant": "medium"
     }
   ],
@@ -13,11 +13,11 @@
     {
       "text": [
         {
-          "text": "Sending updates",
+          "text": "Send updates",
           "variant": "h5"
         },
         {
-          "text": "Send updates containing the information you want to email to your users."
+          "text": "Send updates containing the information you want to email to your users at any time."
         }
       ]
     },
@@ -35,18 +35,18 @@
     {
       "text": [
         {
-          "text": "Select email schedule",
+          "text": "Setup newsletter interval",
           "variant": "h5"
         },
         {
-          "text": "Select the email frequency to update your users"
+          "text": "Select the email frequency to message your users"
         }
       ]
     }
   ],
   "buttons": [
     {
-      "text": "Schedule a Live Demo",
+      "text": "Join waitlist",
       "type": "MODAL",
       "link": "contact",
       "variant": "gradient"
