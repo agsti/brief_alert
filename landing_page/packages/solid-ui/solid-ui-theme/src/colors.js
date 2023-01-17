@@ -19,6 +19,9 @@ const beta = {
   betaDark: colors.lime[700],
   betaDarker: colors.lime[800]
 }
+// console.log('COLORS')
+// console.log(alpha)
+// console.log(beta)
 
 // Reserved
 const gamma = {}
