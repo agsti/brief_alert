@@ -54,6 +54,8 @@ enum BlockContentButtonType {
   SUB
 }
 
+
+
 type BlockContentButton {
   type: BlockContentButtonType!
   text: String
@@ -65,6 +67,7 @@ type BlockContentButton {
   icon: BlockContentIcon
   collection: [BlockContent]
   buttons: [BlockContentButton]
+  trackingAction: String
 }
 
 ############################################

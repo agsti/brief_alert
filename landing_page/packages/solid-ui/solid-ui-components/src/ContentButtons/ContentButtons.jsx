@@ -101,10 +101,10 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
   const { setActiveModal } = useContext(ModalContext)
   const { setActiveTab } = useContext(TabsContext)
 
-  const { type, text, link, target, variant, width, bg, icon } = content
+  const { type, text, link, target, variant, width, bg, icon, trackingAction} = content
 
   const { Component, linkProps } = buildLinkProps({
-    content: { type, link, target, variant },
+    content: { type, link, target, variant, trackingAction },
     setActiveModal,
     setActiveTab
   })

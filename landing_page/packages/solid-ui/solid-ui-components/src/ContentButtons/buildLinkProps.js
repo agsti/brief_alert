@@ -1,8 +1,11 @@
 import { Link as GLink } from 'gatsby'
+import { useContext } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Button, Link } from 'theme-ui'
 import AppButton from '@solid-ui-components/AppButton'
 import VideoButton from '@solid-ui-components/VideoButton'
+import defaultContent from '@solid-ui-blocks/utils/default.content'
+import pageContextProvider from '@helpers/pageContextProvider'
 
 const isValidHttpUrl = link => {
   let url
@@ -16,7 +19,7 @@ const isValidHttpUrl = link => {
 }
 
 const buildLinkProps = ({
-  content: { type, link, target, variant },
+  content: { type, link, target, variant, trackingAction },
   setActiveModal,
   setActiveTab
 }) => {
@@ -77,6 +80,18 @@ const buildLinkProps = ({
     ? 'button-group-link'
     : 'button-group-button'
 
+  const { pageContext } = useContext(pageContextProvider)
+  const { isDevelopment } = pageContext
+  if(trackingAction ) {
+      linkProps["onClick"]= ()=>{
+          if(!isDevelopment){
+              var _paq = window._paq = window._paq || [];
+              _paq.push(['trackEvent',"ButtonClick", trackingAction]);
+          } else {
+              console.log("tracking is disabled on development", trackingAction)
+          }
+      }
+  }
   return { Component, linkProps }
 }
 

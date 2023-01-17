@@ -9,6 +9,7 @@ export const query = graphql`
     variant
     width
     bg
+    trackingAction 
     icon {
       ...BlockContentIcon
     }

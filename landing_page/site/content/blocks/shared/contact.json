@@ -54,13 +54,10 @@
         ],
         "buttons": [
           {
-            "text": "Submit",
+            "text": "Join waitlist",
             "type": "SUBMIT",
             "variant": "secondary",
-            "tracking": {
-                "category": "cat",
-                "action": "act"
-            },
+            "trackingAction": "SubmitWaitList",
             "width": "200px"
           }
         ]
