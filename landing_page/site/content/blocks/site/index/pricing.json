@@ -1,239 +1,39 @@
 {
   "text": [
     {
-      "text": "Ready to start sending summary emails?",
+      "text": "Ready to start with personalized newsletters?",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Our Pricing Plans",
+      "text": "Pay as you go",
       "variant": "h1"
     },
     {
-      "text": "Building great customer relationships is just a step away",
-      "variant": "medium"
+      "text": "How many users do you want to message? (per month)",
+      "variant": "h4"
     },
     {
-      "textGroup": ["Monthly", "Annually (Save 20%)"]
+      "text": "How many updates do you want to send us?  (per month)",
+      "variant": "h4"
+    },
+    {
+      "text": "(Usually close to your current number of emails being sent)",
+      "variant": "h7",
+      "color": "omegaDark"
+    },
+    {
+      "text": "How many emails do you expect to send? (per month)",
+      "variant": "h4"
     }
   ],
-  "collection": [
+  "buttons": [
     {
-      "container": {
-        "variant": "cards.paper"
-      },
-      "text": [
-        {
-          "text": "POC",
-          "color": "omegaDark",
-          "variant": "h5"
-        },
-        {
-          "textGroup": ["Free", "Free"],
-          "color": "omegaDarker",
-          "variant": "h2"
-        },
-        {
-          "text": ""
-        },
-        {
-          "textGroup": ["", ""]
-        },
-        {
-          "text": "For small projects and POCs"
-        }
-      ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-dice-1.svg",
-        "bg": "omegaLighter",
-        "color": "omegaDark"
-      },
-      "buttons": [
-        {
-          "text": "Choose FREE",
-          "type": "MODAL",
-          "link": "contact",
-          "variant": "primary",
-          "width": "100%"
-        }
-      ],
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "1 Custom template",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Send up to 100 updates/month",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Up to 10 users",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "GDPR compliant",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        }
-,
-        {
-          "text": [
-            {
-              "text": "Daily schedule",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.paper"
-      },
-      "text": [
-        {
-          "text": "Scale up",
-          "color": "alpha",
-          "variant": "h5"
-        },
-        {
-          "textGroup": ["$1k", "$800"],
-          "color": "omegaDarker",
-          "variant": "h2"
-        },
-        {
-          "text": "/month"
-        },
-        {
-          "textGroup": ["", "Save 20%"]
-        },
-        {
-          "text": "For big volume companies"
-        }
-      ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-dice-3.svg",
-        "bg": "omegaLighter",
-        "color": "omegaDark"
-      },
-      "buttons": [
-        {
-          "text": "Choose Scale Up",
-          "type": "MODAL",
-          "link": "contact",
-          "variant": "primary",
-          "width": "100%"
-        }
-      ],
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "infinite custom templates",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Send up to 100k updates/month",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Up to 100000 users",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "GDPR Compliant",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Daily, weekly or monthly schedule at any time",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Timezone offsets",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-            "color": "omega"
-          }
-        }
-      ]
+      "text": "Contact sales",
+      "type": "MODAL",
+      "link": "contact",
+      "variant": "primary",
+      "width": "100%"
     }
   ]
 }
