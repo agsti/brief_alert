@@ -54,7 +54,8 @@ module.exports = {
   siteMetadata: {
     title: 'BriefAlert - Summary emails',
     name: 'BriefAlert',
-    description: 'Beautiful summary emails at scale',
+    description:
+      'Reduce spam induced churn, by sending personalized newsletter emails. With BriefAlert, sending and designing newsletter emails takes less than a sprint!',
     siteUrl: 'https://www.briefalert.io'
   }
 }
