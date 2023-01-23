@@ -29,6 +29,14 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'content/assets/brief_alert/favicon.png'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.briefalert.io',
+        sitemap: 'https://www.briefalert.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     }
   ],
   // Customize your site metadata
