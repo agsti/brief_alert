@@ -37,12 +37,24 @@ module.exports = {
         sitemap: 'https://www.briefalert.io/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        serialize: ({ path, modifiedGmt }) => {
+          return {
+            url: path,
+            lastmod: new Date()
+          }
+        }
+      }
     }
   ],
   // Customize your site metadata
   siteMetadata: {
     title: 'BriefAlert - Summary emails',
     name: 'BriefAlert',
-    description: 'Beautiful summary emails at scale'
+    description: 'Beautiful summary emails at scale',
+    siteUrl: 'https://www.briefalert.io'
   }
 }
