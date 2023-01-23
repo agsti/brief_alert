@@ -82,15 +82,17 @@ const buildLinkProps = ({
 
   const { pageContext } = useContext(pageContextProvider)
   const { isDevelopment } = pageContext
-  if(trackingAction ) {
-      linkProps["onClick"]= ()=>{
-          if(!isDevelopment){
-              var _paq = window._paq = window._paq || [];
-              _paq.push(['trackEvent',"ButtonClick", trackingAction]);
-          } else {
-              console.log("tracking is disabled on development", trackingAction)
-          }
+  if (trackingAction) {
+    const prevOnclick = linkProps.onClick
+    linkProps['onClick'] = e => {
+      prevOnclick && prevOnclick(e)
+      if (!isDevelopment) {
+        var _paq = (window._paq = window._paq || [])
+        _paq.push(['trackEvent', 'ButtonClick', trackingAction])
+      } else {
+        console.log('tracking is disabled on development', trackingAction)
       }
+    }
   }
   return { Component, linkProps }
 }

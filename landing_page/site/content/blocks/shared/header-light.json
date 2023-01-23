@@ -34,7 +34,8 @@
           "text": "Contact Us",
           "type": "MODAL",
           "link": "contact",
-          "variant": "secondary"
+          "variant": "secondary",
+          "trackingAction": "Header_Join"
         }
       ]
     }

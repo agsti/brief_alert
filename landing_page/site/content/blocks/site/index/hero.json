@@ -30,7 +30,8 @@
       "text": "Join the waitlist for first access",
       "type": "MODAL",
       "link": "contact",
-      "variant": "white"
+      "variant": "white",
+      "trackingAction": "Hero_Join"
     }
   ]
 }
