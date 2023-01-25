@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.briefalert.io',
-        sitemap: 'https://www.briefalert.io/sitemap.xml',
+        host: 'https://briefalert.io',
+        sitemap: 'https://briefalert.io/sitemap.xml',
         policy: [
           { userAgent: '*', allow: '/' },
           {
@@ -66,6 +66,6 @@ module.exports = {
     name: 'BriefAlert',
     description:
       'Reduce spam induced churn, by sending personalized newsletter emails. With BriefAlert, sending and designing newsletter emails takes less than a sprint!',
-    siteUrl: 'https://www.briefalert.io'
+    siteUrl: 'https://briefalert.io'
   }
 }
