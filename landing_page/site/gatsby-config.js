@@ -35,7 +35,17 @@ module.exports = {
       options: {
         host: 'https://www.briefalert.io',
         sitemap: 'https://www.briefalert.io/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
+        policy: [
+          { userAgent: '*', allow: '/' },
+          {
+            userAgent: '*',
+            disallow: [
+              '/cookie_policy.html',
+              '/privacy_policy.html',
+              '/terms_of_use.html'
+            ]
+          }
+        ]
       }
     },
     {
