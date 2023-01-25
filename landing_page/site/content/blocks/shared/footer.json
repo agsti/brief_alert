@@ -37,19 +37,19 @@
         {
           "text": "Privacy Notice",
           "type": "ANCHOR",
-          "link": "https://www.briefalert.io/privacy_policy.html",
+          "link": "https://briefalert.io/privacy_policy.html",
           "variant": "links.nav-light"
         },
         {
           "text": "Cookie Policy",
           "type": "PAGE",
-          "link": "https://www.briefalert.io/cookie_policy.html",
+          "link": "https://briefalert.io/cookie_policy.html",
           "variant": "links.nav-light"
         },
         {
           "text": "Terms Of Use",
           "type": "PAGE",
-          "link": "https://www.briefalert.io/terms_of_use.html",
+          "link": "https://briefalert.io/terms_of_use.html",
           "variant": "links.nav-light"
         }
       ]
