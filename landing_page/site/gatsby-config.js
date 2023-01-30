@@ -62,7 +62,7 @@ module.exports = {
   ],
   // Customize your site metadata
   siteMetadata: {
-    title: 'BriefAlert - Summary emails',
+    title: 'BriefAlert - Personalized newsletters',
     name: 'BriefAlert',
     description:
       'Reduce spam induced churn, by sending personalized newsletter emails. With BriefAlert, sending and designing newsletter emails takes less than a sprint!',
