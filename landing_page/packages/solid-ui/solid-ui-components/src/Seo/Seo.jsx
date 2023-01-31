@@ -64,8 +64,7 @@ const Seo = ({
       htmlAttributes={{
         lang: 'en'
       }}
-      title={title}
-      titleTemplate={`%s | ${site.title}`}
+      title={site.title}
       meta={metaTags}
     />
   )
